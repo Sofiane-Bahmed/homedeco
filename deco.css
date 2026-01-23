@@ -203,16 +203,24 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    padding: 200px 200px;
 }
 .about-box{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     max-width: 1000px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 20%;
     flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 .col-1,.col-2{
     flex-basis: 50%;
@@ -232,7 +240,7 @@ hr{
 }
 
 .col-2 h5{
-    font-family: 'Karla';
+font-family: 'Karla';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -242,7 +250,7 @@ margin-bottom: 10px;
 color: #F26659;
 }
 .col-2 span{
-    font-family: 'Karla';
+font-family: 'Karla';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -282,7 +290,7 @@ line-height: 23px;
 }
 .profil-card img{
     width: 140px;
-    border-radius: 50%;
+    border-radius: 80%;
 }
 .profil-card h2{
     font-size: 20px;
@@ -296,7 +304,7 @@ line-height: 23px;
 }
 .profil-card .links img{
     width: 40px;
-    border-radius: 50%;
+    border-radius: 80%;
     margin: 10px 5px;
     transition: background 0.5s;
 }
@@ -456,6 +464,16 @@ footer{
     border: 0;
     outline: none;
 }
+.column form input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: none;
+}
+.column form input::placeholder {
+    color: #fff ;
+}
 .column form button{
     background: transparent;
     border: 0;
@@ -582,6 +600,5 @@ footer hr{
   margin-bottom: 10px;
   transition: width 0.9s,height 1s;
    animation: gallery-animation 10s linear  infinite;
-  
   }
   
