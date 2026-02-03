@@ -5,6 +5,10 @@
     font-family: 'poppins',sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*-----hero section------*/
 
 #hero{
@@ -560,7 +564,6 @@ footer hr{
 }
 
 
-
 /*--------------- gallery images-----------------*/
 
 .category{
@@ -573,8 +576,7 @@ footer hr{
     display: flex;
     flex-wrap: nowrap;
     height:50%;
-    
-   overflow-x: hidden;
+    overflow-x: hidden;
    overflow-y: hidden;
    margin-bottom: 70px;
   
@@ -599,6 +601,6 @@ footer hr{
   cursor: pointer;
   margin-bottom: 10px;
   transition: width 0.9s,height 1s;
-   animation: gallery-animation 10s linear  infinite;
+  animation: gallery-animation 10s linear  infinite;
   }
   
