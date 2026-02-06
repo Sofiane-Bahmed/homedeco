@@ -77,7 +77,7 @@ span{
 }
 @media(max-width:700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 40px;
     }
 }
 
