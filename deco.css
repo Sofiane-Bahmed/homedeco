@@ -563,16 +563,26 @@ footer hr{
     margin-bottom: 50px;
 }
 
+.gallery-h1{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-image: linear-gradient( #ed4767,#f58c8b); 
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+   -webkit-text-fill-color: transparent;
+}
+
 
 /*--------------- gallery images-----------------*/
 
 .category{
     margin-block:30px;
-  
   }
   
   .sample{
-  
     display: flex;
     flex-wrap: nowrap;
     height:50%;
