@@ -359,6 +359,7 @@ input,textarea{
     border: 1px solid white;
     background: transparent;
     font-size: 15px;
+    color: #fff;
 }
 label{
     height: 100%;
