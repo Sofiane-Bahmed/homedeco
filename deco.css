@@ -335,6 +335,12 @@ line-height: 23px;
 
 }
 
+@media (max-width:1200px){
+   .profil-card{
+    margin: 30px;
+   }
+}
+
 /*--------------- CONTACT-----------------*/
 
 #contact{
@@ -418,6 +424,7 @@ footer{
     color: #fff;
     padding: 100px 0 30px;
     border-top-left-radius: 125px;
+    border-top-right-radius: 125px;
     font-size: 13px;
     line-height: 20px;
 }
