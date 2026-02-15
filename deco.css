@@ -341,6 +341,12 @@ line-height: 23px;
    }
 }
 
+@media (max-width:600px) {
+   .team-h1{
+         margin-top: 8rem;
+}
+}
+
 /*--------------- CONTACT-----------------*/
 
 #contact{
