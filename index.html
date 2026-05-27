@@ -13,8 +13,9 @@
     <!------------- hero section ----------------->
     <section id="hero">
         <nav>
-            <a href="index.html"><img src="./logo.svg"></a>
-            <div class="nav-links">
+            <a href="index.html"><img src="./images/Group.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#services">SERVICES</a></li>
@@ -23,9 +24,10 @@
                     <li><a href="gallery.html">GALLERY</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
-            <h1>Have elegant futur with our <br>sophisticated <span>HOMEDECO</span></h1>
+            <h1>Step into a sophisticated future with <span>HOMEDECO</span></h1>
             <a class="hero-btn">visit us to know more</a>
         </div>
 
@@ -104,7 +106,7 @@
                 </div>
             </div>
         </div>
-        <div class="title-text" >
+        <div class="title-text">
             <h1 class="team-h1">our team</h1>
         </div>
         <div class="team">
@@ -239,6 +241,16 @@
         <hr>
         <p class="copyright">made by bahmed sofiane @ all rights reserved</p>
     </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 
 </html>

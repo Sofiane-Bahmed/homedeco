@@ -14,8 +14,9 @@
 
     <section id="header">
         <nav>
-            <a href="index.html"><img src="./logo.svg"></a>
-            <div class="nav-links">
+            <a href="index.html"><img src="./images/Group.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="#services">SERVICES</a></li>
@@ -24,6 +25,7 @@
                     <li><a href="gallery.html">GALLERY</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <h1 class="gallery-header-h1">examples of our work</h1>
     </section>
@@ -134,6 +136,16 @@
         <hr>
         <p class="copyright">made by bahmed sofiane @ all rights reserved</p>
     </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 
 </html>
